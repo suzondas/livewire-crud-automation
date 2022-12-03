@@ -1,6 +1,6 @@
-# The license
+# MIT license
 
-Copyright (c) Ritesh Singh <1124ritesh@gmail.com>
+Copyright (c) Suzon Das <suzon.das@hotmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
