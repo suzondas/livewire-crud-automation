@@ -17,13 +17,16 @@ Live Crud Generator. This package generates Basic Crud with Livewire.
  - Create / Update / Delete Functional
  - Real Time Validation Already Added
  - Fuzzy Search Functional
+ - Tailwind CSS support
+ - Addressing CSS issues
+ - Responsive Design
 
 ## Installation
 
 Via Composer
 
 ``` bash
-composer require imritesh/livecrud
+composer require suzondas/livewire-crud-automation
 ```
 
 ## Prerequisites
@@ -46,37 +49,11 @@ php artisan crud:make Name_Of_Your_Model
 
 
 
-## For Bootstrap 4
-1. Publish config and change `template = 'bootstrap'` 
 
-2. Please copy this script and paste in your layout just after @livewireScripts tag
-
-```bash
-
-
-<script type="text/javascript">
-    window.livewire.on('showConfirmDelete', () => {
-        $('#deleteModal').modal('show');
-    });
-    window.livewire.on('hideConfirmDelete', () => {
-        $('#deleteModal').modal('hide');
-    });
-    window.livewire.on('showForm', () => {
-                $('#showForm').modal('show');
-            });
-    window.livewire.on('hideForm', () => {
-        $('#showForm').modal('hide');
-    });
-</script>
 
 
 ```
 
-
-
-## TODO
-
-[] Bulma Support
 
 
 ## Security
@@ -86,7 +63,8 @@ If you discover any security related issues, please email author email instead o
 ## Credits
 
 - [Ritesh Singh](https://imritesh.com)
+- [Suzon Das](https://github.com/suzondas)
 
 ## License
 
-license. Please see the [license file](https://github.com/riteshsingh1/livewire-crud/blob/master/license.md) for more information.
+license. Please see the [license file](https://github.com/suzondas/livewire-crud-automation/blob/master/license.md) for more information.
